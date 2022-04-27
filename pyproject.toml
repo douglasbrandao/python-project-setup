@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-project-setup"
+version = "0.1.0"
+description = "Project developed to teach how to set up a python project using FastAPI, SQLAlchemy and Alembic"
+authors = ["Douglas <douglas@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SQLAlchemy = "^1.4.35"
+alembic = "^1.7.7"
+fastapi = "^0.75.2"
+uvicorn = "^0.17.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
