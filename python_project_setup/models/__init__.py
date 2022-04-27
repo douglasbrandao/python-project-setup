@@ -1,4 +1,4 @@
-from sqlalchemy_with_alembic.db import Connection
+from python_project_setup.db import Connection
 
 from .user import User
 from .tweet import Tweet

@@ -1,9 +1,9 @@
 from fastapi import Depends, FastAPI, HTTPException
 
 from sqlalchemy.orm import Session
-from sqlalchemy_with_alembic.schemas import user, tweet
-from sqlalchemy_with_alembic.db import Connection
-from sqlalchemy_with_alembic.crud import users, tweets
+from python_project_setup.schemas import user, tweet
+from python_project_setup.db import Connection
+from python_project_setup.crud import users, tweets
 from typing import List
 
 app = FastAPI()
