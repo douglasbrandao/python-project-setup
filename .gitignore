@@ -40,3 +40,6 @@ pip-wheel-metadata
 /poetry.toml
 
 poetry/core/*
+
+# dont add versions
+python_project_setup/migrations/versions/*.py
